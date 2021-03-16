@@ -6,39 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clare Henderson Portfolio</title>
     <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+
     <header>
         <h1>Clare Henderson</h1>
         <nav>
-            <p>About me</p>
-            <p>Links to my work</p>
-            <p>Contact form</p>
+            <a href=#about-me>About me</a>
+            <a href=#links>Links to my work</a>
+            <a href=#contact-me>Contact me</a>
         </nav>
     </header>
-    <body>
-        <img src="" alt="">
-        <section>
-            <h2>About me</h2>
-                <p>This is where the about me text will go</p>
-        </section>
-        <section>
-            <h2>Links to my work</h2>
-            <img>
-                <p>screenshot of my code-refactor</p>
-                <a href="https://henderson2350.github.io/code-refactor/">Link to my code refactor</a>
-            <img>
-                <p>Placeholder image-kitten project</p>
-                <a href="https://henderson2350.github.io/mini-project/">Link to my daily kitten website</a>
-            <img>
-                <p>Placeholder image-mini project w/sherwin</p>
-            <img>
-                <p>Placeholder image-frank ocean fanpage</p>
-        </section>
-        <section>
-            <h2>Contact me</h2>
-                <form>This is where my contact form will go</form>
-        </section>
-    </body>
+
+    <img class="size1 photo-margin" src="./assets/photos/photo-me.jpg" alt="photo of me">
+
+    <section id="about-me">
+        <h2>About me</h2>
+            <p>My name is Clare Henderson and I am a recent college graduate and new software developer. 
+                I love coding! Check out some of my latest work on this site.
+            </p>
+    </section>
+
+    <section>
+        <h2 id="links">Links to my work</h2>
+        <div id="parent0">
+            <p class="caption">Flexbox website</p>
+            <img id="solo-photo" src="assets/photos/flexbox-placeholder.png" alt = "photo of flexbox site">
+        </div>
+        <div class="boxes">
+            <div class="parent">
+                <p class="caption">Daily kitten website</p>
+                <img class="size2" src="./assets/photos/kitten-placeholder.png" alt= "photo of kitten webiste">
+            </div>
+            <div class="parent">
+                <p class="caption">Code refactor</p>
+                <img class="size2" src="./assets/photos/horiseon-placeholder.jpg" alt= "photo of code refactor">
+            </div>
+            <div class="parent">
+                <p class="caption">Frank Ocean fanpage</p>
+                <img class="size2" src="./assets/photos/frank-placeholder.png" alt = "frank fansite">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 id=contact-me>Contact me</h2>
+            <p>My email: henderson2350@gmail.com</p>
+            <p>My phone number: +1 404 316 4330</p>
+    </section>
+
 </body>
 </html>
+
+<!-- https://henderson2350.github.io/mini-project/ -->
+
+<!-- "https://henderson2350.github.io/code-refactor/" -->

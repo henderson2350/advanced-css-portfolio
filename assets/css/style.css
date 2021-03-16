@@ -1,0 +1,60 @@
+* {
+    font-family:sans-serif;
+    color: rgb(131, 88, 233);
+    text-align: center;
+}
+
+nav p {
+    display: inline;
+    margin: 5px
+}
+
+
+.parent {
+    position: relative
+}
+
+.caption {
+    color: white;
+    font-size: 50px;
+    background-color: lightblue;
+    border: solid blueviolet;
+    position: absolute;
+    right: 0px;
+    bottom: 40px
+}
+
+.photo-margin {
+    margin: 10px
+}
+
+.size1 {
+    width: 200px;
+    height: 300px
+}
+.size2 {
+    width: 500px;
+    height: 500px;
+    margin: 10px
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#solo-photo {
+    width: 70%;
+    height: auto;
+    margin: 10px
+}
+
+#parent0 {
+    position: relative
+}
+
+#caption0 {
+    position: absolute;
+    right: 0px;
+    bottom: 40px
+}
