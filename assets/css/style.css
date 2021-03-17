@@ -38,9 +38,15 @@ nav p {
     margin: 10px
 }
 
+.size-large {
+    width: 1000px;
+    height: 1000px;
+    margin: 10px
+}
 .boxes {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: center
 }
 
 #solo-photo {
@@ -49,12 +55,10 @@ nav p {
     margin: 10px
 }
 
-#parent0 {
-    position: relative
+#center {
+    text-align: center
 }
 
-#caption0 {
-    position: absolute;
-    right: 0px;
-    bottom: 40px
+#kitten: active {
+    
 }
