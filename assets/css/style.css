@@ -1,9 +1,11 @@
+/* UNIVERSAL SELECTOR */
 * {
     font-family:sans-serif;
     color: rgb(131, 88, 233);
     text-align: center;
 }
 
+/* ELEMENT SELECTORS */
 nav p {
     display: inline;
     margin: 5px
@@ -17,6 +19,7 @@ h2 {
     background-color: lightblue
 }
 
+/* CLASS SELECTORS */
 .parent {
     position: relative
 }
@@ -56,6 +59,7 @@ h2 {
     justify-content: center
 }
 
+/* ID SELECTORS */
 #solo-photo {
     width: 70%;
     height: auto;
